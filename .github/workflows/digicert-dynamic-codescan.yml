@@ -24,7 +24,7 @@ jobs:
       matrix:
         include:
           # - This will be replaced with the generated language and build mode content on runtime
-                    - language: JavaScript
+          - language: JavaScript
             build-mode: none
     steps:
       - name: Checkout repository
